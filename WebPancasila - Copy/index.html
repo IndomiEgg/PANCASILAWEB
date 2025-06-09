@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pancasila - Dasar Negara Indonesia</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo">PANCASILA</a>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#hero" class="nav-link" data-section="hero">Home</a></li>
+          <li>
+            <a href="#sejarah" class="nav-link" data-section="sejarah"
+              >Sejarah</a
+            >
+          </li>
+          <li>
+            <a href="#sila-section" class="nav-link" data-section="sila-section"
+              >Sila-sila</a
+            >
+          </li>
+          <li>
+            <a
+              href="#nilai-section"
+              class="nav-link"
+              data-section="nilai-section"
+              >Nilai-Nilai</a
+            >
+          </li>
+        </ul>
+        <div class="nav-toggle" id="navToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section" id="hero">
+      <h1 class="hero-title">PANCASILA</h1>
+      <div class="garuda-container" id="garudaContainer">
+        <div class="garuda-pancasila">
+          <div class="garuda-symbol"></div>
+        </div>
+      </div>
+      <div class="scroll-indicator">⬇ Klik Garuda untuk melanjutkan ⬇</div>
+    </section>
+
+    <section class="sejarah-section" id="sejarah">
+      <div class="container">
+        <h2 class="sejarah-title">Sejarah Singkat Pancasila</h2>
+        <div class="sejarah-content">
+          <div class="video-container">
+            <video id="sejarahVideo" loop playsinline controls>
+              <source src="video/vid.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="sejarah-text">
+            <p>
+              Sejarah Singkat Pancasila Pancasila adalah dasar negara Indonesia
+              yang terdiri dari lima sila. Kata Pancasila berasal dari bahasa
+              Sanskerta, yaitu "panca" yang berarti lima dan "sila" yang berarti
+              prinsip atau asas.
+            </p>
+            <p>
+              1. Awal Mula Lahirnya Pancasila <br />Pancasila pertama kali
+              digagas dalam sidang Badan Penyelidik Usaha-Usaha Persiapan
+              Kemerdekaan Indonesia (BPUPKI) pada tanggal 1 Juni 1945. Dalam
+              sidang tersebut, Ir. Soekarno menyampaikan pidato tentang dasar
+              negara yang kemudian dikenal sebagai lahirnya Pancasila.
+            </p>
+            <p>
+              2. Rumusan Awal <br />Setelah pidato Soekarno, BPUPKI membentuk
+              Panitia Sembilan untuk merumuskan dasar negara. Hasilnya adalah
+              Piagam Jakarta pada tanggal 22 Juni 1945, yang berisi rumusan awal
+              Pancasila.
+            </p>
+            <p>
+              3. Perubahan dan Pengesahan <br />Pada tanggal 18 Agustus 1945,
+              sehari setelah Proklamasi Kemerdekaan Indonesia, Panitia Persiapan
+              Kemerdekaan Indonesia (PPKI) mengesahkan Undang-Undang Dasar 1945,
+              yang di dalamnya tercantum rumusan final Pancasila sebagai dasar
+              negara Indonesia. Rumusan tersebut mengalami perubahan pada sila
+              pertama demi menjaga persatuan bangsa.
+            </p>
+            <p>
+              <br />Bunyi Lima Sila Pancasila: <br />
+              <br />
+              1. Ketuhanan yang maha esa<br />2. Kemanusiaan yang adil dan
+              beradab <br />3. Persatuan Indonesia <br />
+              4.Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam
+              permusyawaratan perwakilan. <br />5. Keadilan sosial bagi seluruh
+              rakyat Indonesia.
+            </p>
+          </div>
+          <div
+            style="
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              margin: 2rem 0 0 0;
+            "
+          >
+            <button
+              id="btnToSila"
+              style="
+                padding: 0.8rem 2.2rem;
+                font-size: 1.1rem;
+                background: #ff0000;
+                color: #fff;
+                border: none;
+                border-radius: 30px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+                cursor: pointer;
+                transition: background 0.2s;
+                font-weight: bold;
+                letter-spacing: 1px;
+              "
+            >
+              Lanjut ke Sila-sila ⬇
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sila-section" id="sila-section">
+      <h2 class="sila-title">Lima Sila Pancasila</h2>
+      <div class="sila-container">
+        <div class="sila-card sila-1" data-sila="1">
+          <div class="sila-content">
+            <div class="sila-title-text">SILA 1</div>
+          </div>
+          <div class="sila-symbol"></div>
+        </div>
+
+        <div class="sila-card sila-2" data-sila="2">
+          <div class="sila-content">
+            <div class="sila-title-text">SILA 2</div>
+          </div>
+          <div class="sila-symbol"></div>
+        </div>
+
+        <div class="sila-card sila-3" data-sila="3">
+          <div class="sila-content">
+            <div class="sila-title-text">SILA 3</div>
+          </div>
+          <div class="sila-symbol"></div>
+        </div>
+
+        <div class="sila-card sila-4" data-sila="4">
+          <div class="sila-content">
+            <div class="sila-title-text">SILA 4</div>
+          </div>
+          <div class="sila-symbol"></div>
+        </div>
+
+        <div class="sila-card sila-5" data-sila="5">
+          <div class="sila-content">
+            <div class="sila-title-text">SILA 5</div>
+          </div>
+          <div class="sila-symbol"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Baru: Nilai-Nilai Pancasila -->
+    <section class="nilai-section" id="nilai-section">
+      <div class="container">
+        <h2 class="sejarah-title">Nilai-Nilai Pancasila</h2>
+        <div class="sejarah-content">
+          <div class="video-container">
+            <img
+              src="img/garuda.png"
+              alt="Nilai Pancasila"
+              style="
+                width: 100%;
+                height: 350px;
+                object-fit: contain;
+                background: #fff;
+                border-radius: 15px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+              "
+            />
+          </div>
+          <div class="sejarah-text">
+            <p>
+              Nilai-nilai Pancasila merupakan pedoman hidup bangsa Indonesia
+              yang tercermin dalam setiap sila. Nilai-nilai ini meliputi nilai
+              ketuhanan, kemanusiaan, persatuan, kerakyatan, dan keadilan
+              sosial. Setiap warga negara diharapkan mengamalkan nilai-nilai ini
+              dalam kehidupan sehari-hari untuk menciptakan masyarakat yang
+              harmonis, adil, dan sejahtera.
+            </p>
+            <p>
+              Penerapan nilai-nilai Pancasila dapat dilihat dalam sikap saling
+              menghormati antarumat beragama, gotong royong, musyawarah untuk
+              mufakat, serta keadilan sosial bagi seluruh rakyat Indonesia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="css/script.js"></script>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>PANCASILA</h3>
+          </div>
+          <div class="footer-info">
+            <p>&copy; 2025 Website Pancasila. Dibuat untuk edukasi.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
